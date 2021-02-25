@@ -1,0 +1,59 @@
+.search{
+    width: 100%;
+    line-height: 50px;
+    /* background-color: red; */
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+}
+.search p{
+    position: relative;
+    width:60%;
+    display: inline-block;
+    height: 50px;
+    background-color: #ececec;
+    border-radius: 40px;
+}
+.search img{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    height: 28px;
+}
+.search input{
+    width: 40%;
+    height:40px;
+    background-color: white;
+    border:0;
+    outline:none;
+    background-color: #ececec;
+    font-size: 22px;
+    
+}
+.songslist li{
+    line-height: 40px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ececec;
+    font-size: 20px;
+}
+.songslist li span{
+    font-size: 18px;
+}
+.hots{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-count:4;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.hots li{
+    width: 25%;
+    line-height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ececec;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}

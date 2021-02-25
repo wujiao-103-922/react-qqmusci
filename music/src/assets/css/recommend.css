@@ -1,0 +1,51 @@
+.recommend{
+    margin: 20px 0;
+    width: 100%;
+   
+}
+.recommend h4{
+    margin-bottom: 20px;
+    padding: 4px;
+    border-left: 5px solid orange;
+}
+.recommend ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    column-count:2;
+    flex-wrap: wrap;
+}
+.recommend ul li{
+    float: left;
+    width: 100%;
+    height: 220px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.recommend ul li img{
+    width: 300px;
+    height: 200px;
+}
+
+.newSong{
+    margin: 20px 0;
+    width: 100%;
+}
+.newSong h4{
+    margin-bottom: 20px;
+    padding: 4px;
+    border-left: 5px solid orange;
+}
+.newSong ul{
+    width: 100%;
+}
+.newSong ul li{
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border-bottom:1px solid #ececec;
+    font-size: 20px;
+}
+.newSong ul li span{
+    font-size: 18px;
+}
